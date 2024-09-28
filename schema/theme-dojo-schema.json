@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "",
+  "title": "VS Code theme template",
+  "description": "Defines a dynamic VS Code theme template for generating themes with",
+  "type": "object",
+  "properties": {
+    "background": {
+      "description": "Colors vscode workbench color properties that Theme Dojo considers background properties.",
+      "type": "object",
+      "properties": {
+        "primary": {
+          "description": "Primary background colors. This group will always include editor.background.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "secondary": {
+          "description": "Secondary background colors. Colors an assortment of workbench properties by default, but most of the default color group's default workbench color properties can be overridden by simply assigning any of the default properties to another group of the developer's choice.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "accent": {
+          "description": "Accent background properties often include targets such as \"badge.background\" and statusBar.remoteBackground. Often these are properties that add additional color to the theme by coloring theme with a color that slightly stands out, but doesn't stand out more than the background color chosen for the active and hover groups.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
+
+
