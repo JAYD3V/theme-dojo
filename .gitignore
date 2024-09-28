@@ -1,8 +1,0 @@
-.Temp/
-.vscode/
-node_modules/
-theme/
-
-.gitignote
-.prettierrc
-package-lock.json
