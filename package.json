@@ -4,7 +4,7 @@
   "description": "GitHub theme for VS Code",
   "version": "6.3.4",
   "publisher": "GitHub",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1b1f23",
